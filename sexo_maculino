@@ -1,0 +1,34 @@
+/*Escribir por teclado el nombre, la edad y el sexo de cualquier persona e imprima, solo si la persona
+es de sexo masculino y mayor de edad, el nombre de la persona*/
+
+#include<stdio.h>
+
+int main(){
+	
+	char nombre[20];
+	char sexo[20];
+	int edad;
+	
+	printf("Escriba su nombre: ");
+	gets(nombre);
+	printf("Escriba su sexo: ");
+	gets(sexo);
+	printf("Escriba su edad: ");
+	scanf("%i",edad);
+	
+	if(strcmp(sexo,"masculino") == 0){
+		if(edad >= 18){
+			printf("\nEl nombre de la persona es: %s",nombre);
+		}
+	}
+	
+	else{
+		printf("La persona es menor de edad");
+	}
+	
+	
+	return 0;
+}
+
+
+
