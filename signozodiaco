@@ -1,0 +1,25 @@
+/*Escribir un nombre y un signo del zodiaco por teclado, y si es signo aries, decir el nombre.
+Si no es aries decir, no es aries.*/
+
+#include<stdio.h>
+
+int main(){
+	
+	char nombre[30];
+	char signo[20];
+	
+	printf("Escriba su nombre: ");
+	gets(nombre);
+	printf("Escriba su signo: ");
+	gets(signo);
+	
+	//"strcmp" compara cadenas de caracteres, si es == 0 entonces los caracteres son los mismos.
+	if(strcmp(signo,"aries") == 0){
+		printf("\nEs signo aries, su nombre es: %s",nombre);
+	}
+	else{
+		printf("No es signo aries es signo: %s",signo);
+	}
+	
+	return 0;
+}
