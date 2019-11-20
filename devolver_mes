@@ -1,0 +1,57 @@
+/*
+Escribir el numero del mes y devolver el mismo de forma escrita.
+*/
+
+
+#include<stdio.h>
+
+int main(){
+	
+	int mes;
+	
+	
+	printf("Escriba un mes del año (1-12): ");
+	scanf("%i",&mes);
+	
+	switch(mes){
+		case 1:
+			printf("Es Enero");
+		break;
+		case 2:
+			printf("Es Febrero");
+		break;
+		case 3:
+			printf("Es Marzo");
+		break;
+		case 4:
+			printf("Es Abril");
+		break;
+		case 5:
+			printf("Es Mayo");
+		break;
+		case 6:
+			printf("Es Junio");
+		break;
+		case 7:
+			printf("Es Julio");
+		break;
+		case 8:
+			printf("Es Agosto");
+		break;
+		case 9:
+			printf("Es Septiembre");
+		break;
+		case 10:
+			printf("Es Octubre");
+		break;
+		case 11:
+			printf("Es Noviembre");
+		break;
+		case 12:
+			printf("Es Diciembre");
+		break;
+	}
+	
+	
+	return 0;
+}
