@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+	
+	float GradosC = 0;
+	float GradosF = 0;
+	
+	printf("Escriba grados Celsius: ");
+	scanf("%f",&GradosC);
+	//Operaciones:
+	GradosF = (GradosC + 9/5) + 32;
+	
+	printf("\nEn grados Fahrenheit son: %f",GradosF);
+	
+	return 0;
+}
