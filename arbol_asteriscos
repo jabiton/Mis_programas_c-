@@ -1,0 +1,27 @@
+/*
+Crear un arbol con asteriscos usando el bucle for:
+*/
+
+
+#include<stdio.h>
+
+int main(){
+	
+	int i;
+	int j;
+	int filas;
+	
+	printf("Escriba el numero de filas: ");
+	scanf("%i",&filas);
+	
+	for(i = 1; i <= filas; i++){
+		for(j = 1; j <= filas - 1; j++){
+			printf(" ");
+			}
+		}
+	for(i = 1; i <= filas * 2 - 1; i++){
+		printf("*");
+		}
+	printf("\n");
+	return 0;
+}
