@@ -7,15 +7,18 @@ int main(){
 	int base_menor;
 	int altura;
 	int area;
+	
 	//Solicitar datos
 	printf("Escriba base mayor: ");
-	scanf("%i",&base_mayor);
+		scanf("%i",&base_mayor);
 	printf("Escriba base menor: ");
-	scanf("%i",&base_menor);
+		scanf("%i",&base_menor);
 	printf("Escriba altura: ");
-	scanf("%i",&altura);
+		scanf("%i",&altura);
+	
 	//Operaciones
 	area = ((base_mayor + base_menor) / 2) * altura;
+	
 	//Salidas
 	printf("El area del trapecio es: %i m2",area);
 	
