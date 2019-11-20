@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+	
+	const float pi = 3.1415;
+	float radio = 0;
+	
+	printf("Escriba el radio: ");
+	scanf("%f",&radio);
+	
+	float lcircunferencia = 2 * pi * radio;
+	printf("La longitud de la circunferencia es: %f",lcircunferencia);
+	
+	
+	return 0;
+}
