@@ -10,11 +10,11 @@ int main(){
 	int edad;
 	
 	printf("Escriba su nombre: ");
-	gets(nombre);
+		gets(nombre);
 	printf("Escriba su sexo: ");
-	gets(sexo);
+		gets(sexo);
 	printf("Escriba su edad: ");
-	scanf("%i",edad);
+		scanf("%i",edad);
 	
 	if(strcmp(sexo,"masculino") == 0){
 		if(edad >= 18){
